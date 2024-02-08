@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darker">#0D1536</color>
+    <color name="outline">#C5D0DD</color>
+
+
+<!--    card color      -->
+    <color name="mecha1">#4AB8FA</color>
+    <color name="mecha2">#A1FFFF</color>
+
+    <color name="bio1">#FF9262</color>
+    <color name="bio2">#FFEE72</color>
+
+    <color name="psy1">#C56ACF</color>
+    <color name="psy2">#FFB0E3</color>
+
+    <color name="img1">#EACF9A</color>
+    <color name="img2">#ECDDC6</color>
+
+    <color name="qua1">#7966FF</color>
+    <color name="qua2">#CD8FFE</color>
+
+    <color name="sd1">#FFA5A5</color>
+    <color name="sd2">#FFCACA</color>
+
+</resources>
