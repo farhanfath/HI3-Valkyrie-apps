@@ -5,6 +5,9 @@
     <color name="darker">#0D1536</color>
     <color name="outline">#C5D0DD</color>
 
+    <color name="blue">#00A5E2</color>
+    <color name="yellow">#FFE658</color>
+
 
 <!--    card color      -->
     <color name="mecha1">#4AB8FA</color>

@@ -5,5 +5,7 @@ data class valkFormat(
     var battlesuit : String = "",
     var type : String = "",
     var img : Int = 0,
-    var cardtype: Int = 0
+    var cardtype: Int = 0,
+    var detailimg : Int = 0,
+    var bio : String = ""
 )

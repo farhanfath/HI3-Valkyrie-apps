@@ -51,6 +51,9 @@ class valkListAdapter (private val listValk: ArrayList<valkFormat>) :
 //        for clickable to details activity
         holder.itemView.setOnClickListener {
             val detailValk = Intent(context, DetailValkyrie::class.java)
+            detailValk.putExtra(DetailValkyrie.EXTRA_BATTLESUIT, honkaiValk.battlesuit)
+            detailValk.putExtra(DetailValkyrie.EXTRA_DETAILIMG, honkaiValk.detailimg)
+            detailValk.putExtra(DetailValkyrie.EXTRA_BIO, honkaiValk.bio)
             context.startActivity(detailValk)
         }
 
