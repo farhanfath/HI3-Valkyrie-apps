@@ -1,8 +1,10 @@
 package com.project.honkaiimpac3rd
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
+import android.view.MenuItem
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -34,5 +36,19 @@ class MainActivity : AppCompatActivity() {
 //        use custom menu
         menuInflater.inflate(R.menu.custom_menu, menu)
         return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        actionbarGo(item.itemId)
+        return super.onOptionsItemSelected(item)
+    }
+
+    private fun actionbarGo(iconclicked: Int) {
+        when (iconclicked) {
+            R.id.profile -> {
+                val goAbout = Intent(this@MainActivity, AboutCaptain::class.java)
+                startActivity(goAbout)
+            }
+        }
     }
 }
