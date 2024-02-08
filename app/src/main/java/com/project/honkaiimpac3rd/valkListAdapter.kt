@@ -1,5 +1,6 @@
 package com.project.honkaiimpac3rd
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -46,6 +47,12 @@ class valkListAdapter (private val listValk: ArrayList<valkFormat>) :
         holder.battleSuit.text = honkaiValk.battlesuit
         holder.type.text = honkaiValk.type
         holder.cardtype.background = backgroundDrawable
+
+//        for clickable to details activity
+        holder.itemView.setOnClickListener {
+            val detailValk = Intent(context, DetailValkyrie::class.java)
+            context.startActivity(detailValk)
+        }
 
     }
 

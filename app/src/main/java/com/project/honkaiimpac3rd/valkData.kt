@@ -102,11 +102,11 @@ object valkData {
         ),
 
         arrayOf(
-            "Griseo",
-            "Cosmic Expression",
-            "SD",
-            R.drawable.valk_griseo,
-            R.drawable.card_sd
+            "Rozaliya Olenyeva",
+            "Molotov Cherry",
+            "PSY",
+            R.drawable.valk_rozaliya,
+            R.drawable.card_psy
         ),
     )
 
