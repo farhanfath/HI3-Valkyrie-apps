@@ -54,6 +54,11 @@ class valkListAdapter (private val listValk: ArrayList<valkFormat>) :
             detailValk.putExtra(DetailValkyrie.EXTRA_BATTLESUIT, honkaiValk.battlesuit)
             detailValk.putExtra(DetailValkyrie.EXTRA_DETAILIMG, honkaiValk.detailimg)
             detailValk.putExtra(DetailValkyrie.EXTRA_BIO, honkaiValk.bio)
+            detailValk.putExtra(DetailValkyrie.EXTRA_NAME, honkaiValk.name)
+            detailValk.putExtra(DetailValkyrie.EXTRA_TYPE, honkaiValk.type)
+            detailValk.putExtra(DetailValkyrie.EXTRA_FROM, honkaiValk.from)
+            detailValk.putExtra(DetailValkyrie.EXTRA_KHAS, honkaiValk.khas)
+            detailValk.putExtra(DetailValkyrie.EXTRA_PERSONALITY, honkaiValk.personality)
             context.startActivity(detailValk)
         }
 

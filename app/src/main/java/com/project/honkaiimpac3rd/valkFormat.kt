@@ -7,5 +7,8 @@ data class valkFormat(
     var img : Int = 0,
     var cardtype: Int = 0,
     var detailimg : Int = 0,
-    var bio : String = ""
+    var bio : String = "",
+    var from : String = "",
+    var khas : String = "",
+    var personality : String = ""
 )

@@ -1,7 +1,11 @@
 <resources>
+
     <string name="app_name">HI3 - Valkyrie</string>
 
     <string name="tagbattlesuit">BattleSuit : </string>
     <string name="tagtype">Type : </string>
-    <string name="profilevalk">Background : </string>
+    <string name="profilevalk">Profile : </string>
+    <string name="Appearance">Appearance : </string>
+    <string name="Personality">Personality : </string>
+
 </resources>
