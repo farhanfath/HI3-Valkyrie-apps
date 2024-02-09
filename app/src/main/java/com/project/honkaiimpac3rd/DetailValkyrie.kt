@@ -23,6 +23,7 @@ class DetailValkyrie : AppCompatActivity() {
 
     //        type image
     private lateinit var typeIcon : ImageView
+    private lateinit var typebgdetail : ImageView
 
     //    float action button animate
     private val rotateOpen: Animation by lazy { AnimationUtils.loadAnimation(this, R.anim.rotate_open_anim) }
@@ -73,22 +74,28 @@ class DetailValkyrie : AppCompatActivity() {
 
         //        change type icon by condition
         typeIcon = findViewById(R.id.type_icon)
+        typebgdetail = findViewById(R.id.bgdetail_valkimg)
         when(type) {
 
             "MECH" -> {
                 typeIcon.setImageResource(R.drawable.type_detail_mech)
+                typebgdetail.setImageResource(R.drawable.detail_card_mech)
             }
             "BIO" -> {
                 typeIcon.setImageResource(R.drawable.type_detail_bio)
+                typebgdetail.setImageResource(R.drawable.detail_card_bio)
             }
             "PSY" -> {
                 typeIcon.setImageResource(R.drawable.type_detail_psy)
+                typebgdetail.setImageResource(R.drawable.detail_card_psy)
             }
             "IMG" -> {
                 typeIcon.setImageResource(R.drawable.type_detail_img)
+                typebgdetail.setImageResource(R.drawable.detail_card_img)
             }
             "QUA" -> {
                 typeIcon.setImageResource(R.drawable.type_detail_qua)
+                typebgdetail.setImageResource(R.drawable.detail_card_qua)
             }
 
         }

@@ -46,7 +46,7 @@ object valkData {
             R.drawable.valk_bronya,
             R.drawable.card_psy,
             R.drawable.detail_bronya,
-            "Lorem",
+            "unknown",
             "St. Freya",
             "As the youngest of her classmates, Bronya has a short and slim stature with piercing silver eyes. She keeps her silver-gray hair tied up in signature double pigtails in a drill shape and includes a matching ribbon that coordinates with her battlesuits. Her main weapon is a set of cannons (that function either as typical cannons and lasers) that are wielded by her robotic companion, Project Bunny 19C. Thanks to her robotic legs, Bronya has the ability to both walk and float, though she rarely bothers with the former.",
             "Due to an event in her past, Bronya rarely shows emotion except in the direst of circumstances. However, she does have a fondness for sarcasm, oftentimes referring to Kiana as \"Kiana Idiotka\" and getting called \"Bratnya\" in return. She also collects and displays HOMU merchandise, something she has in common with Principal Theresa.\n" +
@@ -82,7 +82,7 @@ object valkData {
             R.drawable.valk_elysia,
             R.drawable.card_psy,
             R.drawable.detail_ely,
-            "lorem",
+            "unknown",
             "World Serpent",
             "Elysia has long pink hair tied in a low ponytail, and wears a black, purple and white outfit that's described as \"very pretty\". According to herself, she's unable to gain or lose weight and wears no makeup, only doing as such in very special occasions. In a book written by Elysia herself, she calls herself \"A Girl As Gorgeous As Dancing Petals\" in the very own title of the book, wielding \"a bow that shares her elegance and beauty.\" She also has pointy elf ears.\n" +
                     "\n" +
@@ -110,9 +110,9 @@ object valkData {
             R.drawable.valk_prometheus,
             R.drawable.card_img,
             R.drawable.detail_prome,
-            "Lorem",
+            "unknown",
             "MOTH",
-            "",
+            "unknown",
             "An artificial intelligence created by Dr. MEI to be an assistant who functions based on pure rationality. Created without an emotion module, PROMETHEUS operates on logic, calculations and probability as the basis of her way of thought in order to provide the most rational solutions for her companions, and demonstrates great difficulty in understanding human emotions and decisions made against rationality, sometimes to the point of becoming outright unresponsive. Despite this, PROMETHEUS makes attempts to better understand the nature of humanity and human thought.\n" +
                     "\n" +
                     "On rare occasions, PROMETHEUS has herself demonstrated and acted on what can only be described as human emotion, such as when she struck Kevin Kaslana in anger, which suggests that her intelligence isn't as rigid as she might think."
@@ -125,10 +125,10 @@ object valkData {
             R.drawable.valk_hua,
             R.drawable.card_psy,
             R.drawable.detail_hua,
-            "The strict and studious class monitor of St. Freya High.",
-            "St. Freya",
-            "",
-            ""
+            "unknown",
+            "unknown",
+            "unknown",
+            "unknwon"
         ),
 
         arrayOf(
@@ -151,7 +151,7 @@ object valkData {
             R.drawable.valk_seele,
             R.drawable.card_qua,
             R.drawable.detail_seele,
-            "Lorem",
+            "unknown",
             "Anti - Entropy",
             "Seele has a short and slim build similar to Bronya’s with short black hair fading to blue cut in a bob and deep blue eyes.",
             "Although undergoing much more growth after the events in the Sea of Quanta, Seele is still a rather timid young girl. She, however, has grown to adopt a strong enough will to protect others and do the right thing, even if the task of doing so may daunt her. Seele is incredibly kind and compassionate, choosing means that sympathize over outright violence against her opponents, which is a far cry from her alter ego, \"Seele.\"\n" +
@@ -166,7 +166,7 @@ object valkData {
             R.drawable.valk_durandal,
             R.drawable.card_mech,
             R.drawable.detail_durandal,
-            "Lorem",
+            "unknown",
             "Schicksal",
             "Durandal is a very beautiful woman who is voluptuous in appearance and possesses regal beauty. She has voluminous, wavy blonde hair fading into a coral pink at the bottom which descends past her waist and is rather wild in its own way. It is usually left loose, but the Battlesuit, Dea Anchora depicts her hair tied up in a high ponytail. She possesses deep blue eyes along with a slim but fit figure. Durandal uses lances in battle.",
             "Durandal was shown to be mature, quick at making decisions, and a little hot-headed when she was 12. Theresa states how she would often lecture senior officers on the importance of hard work whenever they tried to take a break, much to her dismay. She is also somewhat gullible. As she fell for Kiana and Theresa’s “vacation” excuse when they ratted her out to Anti-Entropy to buy time.\n" +
@@ -196,7 +196,7 @@ object valkData {
             R.drawable.valk_rozaliya,
             R.drawable.card_psy,
             R.drawable.detail_rozaliya,
-            "Lorem",
+            "unknown",
             "Anti - Entropy",
             "Rozaliya has flamingo pink hair and thick eyebrows of the same color. Her big, cyan eyes are highlighted by a pink eyeliner. Her oval pupils are white in the middle and have neon pink borders. She has a \"cute little fang\".\n" +
                     "\n" +
