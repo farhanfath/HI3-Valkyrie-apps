@@ -8,5 +8,9 @@
     <string name="Appearance">Appearance : </string>
     <string name="Personality">Personality : </string>
     <string name="textLorem">Lorem</string>
+    <string name="profileName">Muhammad Farhan Fathurrohman</string>
+    <string name="profileEmail">farhanfathur73@gmail.com</string>
+    <string name="linkGithub">https://github.com/farhanfath</string>
+    <string name="linkLinkedin"></string>
 
 </resources>
